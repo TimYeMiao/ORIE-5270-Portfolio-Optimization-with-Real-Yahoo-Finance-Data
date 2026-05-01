@@ -1,0 +1,17 @@
+name: portfolio-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pytest
+  - pytest-cov
+  - ipykernel
+  - jupyter
+  - pip
+  - pip:
+      - yfinance
