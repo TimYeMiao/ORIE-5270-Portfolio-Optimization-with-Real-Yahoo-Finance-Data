@@ -272,6 +272,8 @@ In the current implementation, the equal-weight portfolio, minimum-variance port
 
 The final results may vary slightly depending on Yahoo Finance data updates and package versions.
 
+In the current run, the equal-weight portfolio achieves the highest cumulative return during the testing period, while the maximum-Sharpe portfolio also performs strongly after the market recovery period. The minimum-variance portfolio is more conservative and shows lower cumulative return, which is consistent with its objective of reducing portfolio variance rather than maximizing return.
+
 ---
 
 ## Interpretation
@@ -294,7 +296,6 @@ This project has several limitations:
 2. The backtest does not include transaction costs, taxes, or liquidity constraints.
 3. The portfolios are constructed using a fixed train-test split rather than a rolling-window rebalancing framework.
 4. The strategy uses long-only constraints and does not consider short selling.
-5. The data source depends on Yahoo Finance availability through `yfinance`.
 
 ---
 
