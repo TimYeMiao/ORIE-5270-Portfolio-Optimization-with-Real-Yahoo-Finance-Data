@@ -260,6 +260,22 @@ The current implementation has total test coverage above 80%. The tests cover th
 - Performance metrics
 - Basic data input validation
 
+Result as shown:
+
+```bash
+
+Name                                    Stmts   Miss  Cover
+-----------------------------------------------------------
+src\portfolio_project\__init__.py           0      0   100%
+src\portfolio_project\backtest.py          11      0   100%
+src\portfolio_project\data.py              13      8    38%
+src\portfolio_project\features.py          12      0   100%
+src\portfolio_project\metrics.py           26      0   100%
+src\portfolio_project\optimization.py      36      3    92%
+-----------------------------------------------------------
+TOTAL                                      98     11    89%
+```
+
 The data downloading function depends on the external Yahoo Finance API, so it is tested mainly for input validation rather than live API behavior.
 
 ---
